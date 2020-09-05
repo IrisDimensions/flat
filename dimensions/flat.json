@@ -1,0 +1,14 @@
+{
+    "name": "Flat",
+    "version": 1,
+    "environment": "NORMAL",
+    "fluidHeight": 0,
+    "carving": false,
+    "caves": false,
+    "postProcessing": false,
+    "decorate": false,
+    "placeObjects": false,
+    "regions": [
+        "flat"
+    ]
+}

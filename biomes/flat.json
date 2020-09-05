@@ -1,0 +1,31 @@
+{
+    "name": "Flat",
+    "derivative": "PLAINS",
+    "layers": [
+        {
+            "palette": [
+                "GRASS_BLOCK"
+            ],
+            "style": {
+                "style": "FLAT"
+            }
+        },
+        {
+            "palette": [
+                "DIRT"
+            ],
+            "minHeight": 2,
+            "maxHeight": 2,
+            "style": {
+                "style": "FLAT"
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "flat",
+            "min": 3,
+            "max": 3
+        }
+    ]
+}

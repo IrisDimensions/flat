@@ -1,0 +1,14 @@
+{
+    "interpolator": {
+        "function": "NONE"
+    },
+    "seed": 1,
+    "composite": [
+        {
+            "style": {
+                "style": "FLAT"
+            },
+            "seed": 2
+        }
+    ]
+}
