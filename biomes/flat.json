@@ -4,7 +4,9 @@
     "layers": [
         {
             "palette": [
-                "GRASS_BLOCK"
+                {
+                    "block": "grass_block"
+                }
             ],
             "style": {
                 "style": "FLAT"
@@ -12,7 +14,9 @@
         },
         {
             "palette": [
-                "DIRT"
+                {
+                    "block": "dirt"
+                }
             ],
             "minHeight": 2,
             "maxHeight": 2,
