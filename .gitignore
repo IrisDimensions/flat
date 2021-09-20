@@ -3,3 +3,5 @@
 *.txt
 
 _docs/
+
+.iris/schema/

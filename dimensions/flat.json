@@ -2,8 +2,10 @@
     "name": "Flat",
     "version": 1,
     "environment": "NORMAL",
+    "mode": {
+        "type": "SUPERFLAT"
+    },
     "fluidHeight": 0,
-    "carving": false,
     "caves": false,
     "postProcessing": false,
     "decorate": false,
