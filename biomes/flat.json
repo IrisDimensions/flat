@@ -1,35 +1,30 @@
 {
-    "name": "Flat",
-    "derivative": "PLAINS",
-    "layers": [
+  "name": "Flat Plains",
+  "derivative": "minecraft:plains",
+  "vanillaDerivative": "minecraft:plains",
+  "layers": [
+    {
+      "palette": [
         {
-            "palette": [
-                {
-                    "block": "grass_block"
-                }
-            ],
-            "style": {
-                "style": "FLAT"
-            }
-        },
-        {
-            "palette": [
-                {
-                    "block": "dirt"
-                }
-            ],
-            "minHeight": 2,
-            "maxHeight": 2,
-            "style": {
-                "style": "FLAT"
-            }
+          "block": "minecraft:grass_block"
         }
-    ],
-    "generators": [
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
         {
-            "generator": "flat",
-            "min": 3,
-            "max": 3
+          "block": "minecraft:dirt"
         }
-    ]
+      ]
+    }
+  ],
+  "generators": [
+    {
+      "generator": "flat",
+      "min": 3,
+      "max": 3
+    }
+  ]
 }

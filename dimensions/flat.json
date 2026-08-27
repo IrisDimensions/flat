@@ -1,16 +1,45 @@
 {
-    "name": "Flat",
-    "version": 1,
-    "environment": "NORMAL",
-    "mode": {
-        "type": "SUPERFLAT"
-    },
-    "fluidHeight": 0,
-    "caves": false,
-    "postProcessing": false,
-    "decorate": false,
-    "placeObjects": false,
-    "regions": [
-        "flat"
+  "name": "Flat",
+  "version": 2,
+  "importedStructures": {
+    "disabled": [
+      "minecraft:ancient_city",
+      "minecraft:bastion_remnant",
+      "minecraft:buried_treasure",
+      "minecraft:desert_pyramid",
+      "minecraft:end_city",
+      "minecraft:fortress",
+      "minecraft:igloo",
+      "minecraft:jungle_pyramid",
+      "minecraft:mansion",
+      "minecraft:mineshaft",
+      "minecraft:monument",
+      "minecraft:nether_fossil",
+      "minecraft:ocean_ruin",
+      "minecraft:pillager_outpost",
+      "minecraft:ruined_portal",
+      "minecraft:shipwreck",
+      "minecraft:stronghold",
+      "minecraft:swamp_hut",
+      "minecraft:trail_ruins",
+      "minecraft:trial_chambers"
     ]
+  },
+  "mode": {
+    "type": "SUPERFLAT"
+  },
+  "regions": [
+    "flat"
+  ],
+  "environment": "NORMAL",
+  "dimensionHeight": {
+    "min": -64,
+    "max": 320
+  },
+  "logicalHeight": 384,
+  "fluidHeight": 0,
+  "carvingEnabled": false,
+  "useMantle": false,
+  "decorate": false,
+  "postProcessing": false
 }

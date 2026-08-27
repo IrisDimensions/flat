@@ -1,14 +1,15 @@
 {
-    "interpolator": {
-        "function": "NONE"
-    },
-    "seed": 1,
-    "composite": [
-        {
-            "style": {
-                "style": "FLAT"
-            },
-            "seed": 2
-        }
-    ]
+  "interpolator": {
+    "function": "NONE",
+    "horizontalScale": 1
+  },
+  "seed": 310,
+  "composite": [
+    {
+      "seed": 310,
+      "style": {
+        "style": "FLAT"
+      }
+    }
+  ]
 }
